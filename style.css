@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .page {
+    padding: 20px;
+  }
+  
+  /* Movie Card */
+  .movie-card {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* Seat Layout */
+  .seat-row {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .seat {
+    width: 30px;
+    height: 30px;
+    background-color: #e0e0e0;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .seat.selected {
+    background-color: #4CAF50; /* Green for selected seat */
+  }
+  
+  .seat:hover {
+    background-color: #B0B0B0; /* Darker shade for hover effect */
+  }
+  
+  .seat.unavailable {
+    background-color: #FF6347; /* Red for unavailable seat */
+    cursor: not-allowed;
+  }
+  
+  /* Confirmation Page */
+  .confirmation-content {
+    text-align: center;
+  }
+  
+  .confirmation-content button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirmation-content button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
